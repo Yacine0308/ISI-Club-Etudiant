@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.navbar{
+  padding: 2px 2px 2px 2px;
+  background-color: black;
+  margin:0 260px 0 260px;
+  border-radius: 10px;
+}
+.menu li{
+    margin-right: 8px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+ul a:hover{
+    border-radius: 5px;
+    color: rgb(115, 115, 255);
+    padding: 4px;
+    border-bottom: rgb(115, 115, 255) solid 2px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+ul a{
+    text-decoration: none;
+    color: #f1f1f1;
+    transition:0.2s;
+    font-weight: bold;
+    font-size:22px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #0f2c45;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-title {
+  padding-top: 50px;
+  font-size: 40px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.tag {
+  background: #2978b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.year {
+  font-weight: bold;
+  color: white;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.event-card .date {
+  flex: 1;
+  text-align: center;
+}
+
+.event-card .date h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.event-card .date p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.event-card .event-info {
+  flex: 2;
+  text-align: left;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.event-card .event-info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.event-card .event-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.event-card .event-info span {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Color Variants */
+.blue { background: #16385e; }
+.orange { background: #40a33d; }
+.dark-blue { background: #8b6a8c; }
+.red { background: #eb4d4b; }
+.green { background: #5cba84; }
+.purple { background: #a25971; }
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-top: 1px solid#ccc;
+  font-family: 'Times New Roman', Times, serif;
+}
