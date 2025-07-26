@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    margin-top: 5px;
-    background-image: url(img/im1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(img/im1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar{
-  padding: 2px 2px 2px 2px;
-  background-color: #000;
-  margin: 0 260px 0 260px;
-  border-radius: 10px;
+  padding: 0 200px 0 200px;
+  background-color: #fff;
 }
 .menu li{
     margin-right: 8px;
@@ -23,7 +20,7 @@ ul a:hover{
     border-radius: 5px;
     color: rgb(115, 115, 255);
     padding: 4px;
-    border-bottom:rgb(115, 115, 255) solid 2px;
+    border-bottom:#000 solid 3px;
 }
 ul{
     display: flex;
@@ -33,7 +30,7 @@ ul{
 }
 ul a{
     text-decoration: none;
-    color: #f1f1f1;
+    color: #000;
     transition:0.2s;
     font-weight: bold;
     font-size: 22px;
@@ -42,7 +39,7 @@ ul a{
 .header-image{
     color: white;
     text-align: center;
-    padding-top: 10px;
+
 }
 .header{
     color: white;
