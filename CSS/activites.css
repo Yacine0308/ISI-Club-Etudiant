@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.navbar{
+  padding: 2px 2px 2px 2px;
+  background-color: #000;
+  margin:0 260px 0 260px;
+  border-radius: 10px;
+}
+.menu li{
+    margin-right: 8px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+ul a:hover{
+    border-radius: 5px;
+    color:rgb(115, 115, 255);
+    padding: 4px;
+    border-bottom:rgb(115, 115, 255) solid 2px;
+  }  
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+ul a{
+    text-decoration: none;
+    color: #f1f1f1;
+    transition:0.2s;
+    font-weight: bold;
+    font-size: 22px;
+}
+main {
+    padding: 20px;
+    background-color:#0f2c45;
+}
+
+h2 {
+    color:white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+.intro-section {
+    padding: 20px 0;
+    text-align: justify;
+    margin-bottom: 40px;
+    color: white;
+    margin: 0 50px 0 50px;
+}
+.intro-section p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.Activites{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.activities-grid {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    margin: 0 50px 0 50px;
+}
+.activity-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.activity-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+    padding: 10px;
+}
+.activity-card h3 {
+    color:#0f2c45;
+    font-size: 1.5rem;
+}
+.activity-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+.projects-section {
+    padding: 20px 0;
+    text-align: center;
+}
+.projects-section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: white;
+}
+.project-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.project-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.project-item p {
+    font-size: 0.95rem;
+    color: black;
+    margin-bottom: 15px;
+}
+.project-link {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.project-link:hover {
+    background-color: #2980b9;
+}
+footer {
+    background-color:black;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0 0 10px 0;
+    font-size: 0.9rem; 
+}
+
