@@ -17,7 +17,7 @@ ul a:hover{
     border-radius: 5px;
     color: rgb(115, 115, 255);
     padding: 4px;
-    border-bottom:rgb(115, 115, 255) solid 2px;
+    border-bottom:rgb(115, 115, 255) solid 3px;
 }
 ul{
     display: flex;
