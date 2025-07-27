@@ -3,8 +3,9 @@
     padding: 0; 
     box-sizing: border-box;
 }
-body{
-  background-image: url(img/im1.jpg);
+.container{
+  background-image: url(../img/background.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,7 +21,7 @@ ul a:hover{
     border-radius: 5px;
     color: rgb(115, 115, 255);
     padding: 4px;
-    border-bottom:#000 solid 3px;
+    border-bottom:rgb(115, 115, 255) solid 3px;
 }
 ul{
     display: flex;

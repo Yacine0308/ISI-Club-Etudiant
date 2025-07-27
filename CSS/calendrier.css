@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 .navbar{
-  padding: 2px 2px 2px 2px;
-  background-color: black;
-  margin:0 260px 0 260px;
-  border-radius: 10px;
+ padding: 0 200px 0 200px;
+  background-color: #fff;
 }
 .menu li{
     margin-right: 8px;
@@ -29,7 +27,7 @@ ul{
 }
 ul a{
     text-decoration: none;
-    color: #f1f1f1;
+    color: #000;
     transition:0.2s;
     font-weight: bold;
     font-size:22px;
@@ -38,8 +36,6 @@ body {
   font-family: Arial, sans-serif;
   background: #0f2c45;
   margin: 0;
-  padding: 20px;
-  
 }
 
 .container {
