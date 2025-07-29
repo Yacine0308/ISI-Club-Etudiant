@@ -8,6 +8,9 @@
   background-color: #000;
   margin:0 260px 0 260px;
   border-radius: 10px;
+  padding: 0 200px 0 200px;
+  background-color: #000;
+ 
 }
 .menu li{
     margin-right: 8px;
@@ -19,6 +22,7 @@ ul a:hover{
     color: rgb(115, 115, 255);
     padding: 4px;
     border-bottom:rgb(115, 115, 255) solid 2px;
+    border-bottom:rgb(115, 115, 255) solid 3px;
 }
 ul{
     display: flex;
@@ -32,4 +36,102 @@ ul a{
     transition:0.2s;
     font-weight: bold;
     font-size: 22px;
+    color: #fff;
+    transition:0.2s;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container-1{ 
+    background: #0f2c45;
+}
+h2 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    color: #fff;
+    font-size: 28px;
+}
+.container { 
+    display: flex; 
+    gap: 40px; 
+    max-width: 900px; 
+    margin: auto; 
+    margin-top: 40px;
+}
+form { 
+    flex: 1; 
+    background: #fff; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 5px #a6a5a5; 
+}
+label {
+     display: block; 
+    margin: 10px 0 5px;
+    font-weight: bold; 
+}
+input, textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+button { 
+    width: 100%; 
+    padding: 10px; 
+    background: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+button:hover { 
+    background: #0056b3; }
+iframe { 
+    flex: 1; 
+    height: 550px; 
+    border: none; 
+    border-radius: 8px; 
+}
+@media(max-width:768px){
+.container {
+     flex-direction: column; 
+} iframe {
+     height: 300px; 
+    } 
+}
+textarea{
+    height: 100px;
+    resize: none; 
+}
+footer{
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+footer p{
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+}
+.contact{
+    margin: 0 260px 0 260px;
+}
+img{
+    width: 30px;;
+    align-items: flex-start;
+}
+footer > .lien-de-contact{
+    display: flex;
+    gap: 10px;
+>>>>>>> 026c80893e6e405ef9e6f3c32b88b0ae1eccfaf5
 }

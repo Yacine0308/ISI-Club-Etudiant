@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 .navbar{
-  padding: 2px 2px 2px 2px;
-  background-color: black;
-  margin:0 260px 0 260px;
-  border-radius: 10px;
+ padding: 0 200px 0 200px;
+  background-color: #000;
 }
 .menu li{
     margin-right: 8px;
@@ -18,7 +16,7 @@ ul a:hover{
     border-radius: 5px;
     color: rgb(115, 115, 255);
     padding: 4px;
-    border-bottom: rgb(115, 115, 255) solid 2px;
+    border-bottom: rgb(115, 115, 255) solid 3px;
     
 }
 ul{
@@ -29,20 +27,20 @@ ul{
 }
 ul a{
     text-decoration: none;
-    color: #f1f1f1;
+    color: #fff;
     transition:0.2s;
     font-weight: bold;
     font-size:22px;
+    font-family: serif;
 }
-body {
+.container-1{
+  background-color:#0f2c45;
   font-family: Arial, sans-serif;
-  background: #0f2c45;
   margin: 0;
-  padding: 20px;
-  
 }
 
 .container {
+
   max-width: 1000px;
   margin: auto;
   text-align: center;
@@ -137,13 +135,30 @@ body {
 .purple { background: #a25971; }
 
 /* Footer */
-footer {
-  margin-top: 50px;
-  padding: 20px;
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  border-top: 1px solid#ccc;
-  font-family: 'Times New Roman', Times, serif;
+footer{
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+footer p{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.contact{
+    margin: 0 260px 0 260px;
+}
+img{
+    width: 30px;;
+    align-items: flex-start;
+}
+footer > .lien-de-contact{
+    display: flex;
+    gap: 10px;
 }
