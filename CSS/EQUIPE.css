@@ -104,4 +104,29 @@ ul a{
 }
 footer{
     background-color: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 1.1em;
+}
+p{
+    color: #fff;
+}
+.contact{
+    margin: 0 260px 0 260px;
+}
+img{
+    width: 30px;;
+    align-items: flex-start;
+}
+footer > .lien-de-contact{
+    display: flex;
+    gap: 10px;
 }

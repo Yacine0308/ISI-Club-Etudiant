@@ -135,13 +135,30 @@ ul a{
 .purple { background: #a25971; }
 
 /* Footer */
-footer {
-  margin-top: 50px;
-  padding: 20px;
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  border-top: 1px solid#ccc;
-  font-family: 'Times New Roman', Times, serif;
+footer{
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+footer p{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.contact{
+    margin: 0 260px 0 260px;
+}
+img{
+    width: 30px;;
+    align-items: flex-start;
+}
+footer > .lien-de-contact{
+    display: flex;
+    gap: 10px;
 }
