@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 .navbar{
-  padding: 2px 2px 2px 2px;
   background-color: #000;
-  margin:0 260px 0 260px;
-  border-radius: 10px;
   padding: 0 200px 0 200px;
-  background-color: #000;
  
 }
 .menu li{
@@ -21,7 +17,6 @@ ul a:hover{
     border-radius: 5px;
     color: rgb(115, 115, 255);
     padding: 4px;
-    border-bottom:rgb(115, 115, 255) solid 2px;
     border-bottom:rgb(115, 115, 255) solid 3px;
 }
 ul{
